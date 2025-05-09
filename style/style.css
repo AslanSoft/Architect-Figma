@@ -1,0 +1,150 @@
+/* playfair-display-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/playfair-display-v37-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* playfair-display-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/playfair-display-v37-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* playfair-display-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/playfair-display-v37-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* playfair-display-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/playfair-display-v37-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* playfair-display-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/playfair-display-v37-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* playfair-display-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/playfair-display-v37-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(36, 43, 51, 1);
+}
+
+body{
+    font-family: Playfair Display;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.header__imgbox{
+    margin: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navtools{
+    display: flex;
+    gap: 40px;
+}
+
+.header__a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(188, 188, 188);
+}
+
+
+.kompleks__top__side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: -500px;
+}
+
+.homepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1240px;
+    height: 810px;
+}
+
+.jiloytext{
+    max-width: 350px;
+    background: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    word-break: break-word;
+    color: rgba(212, 193, 127, 1);
+}
+
+.mouse{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.mouse__href{
+    background: none;
+}
+
+.kompleks__bottom__site{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom__site__left{
+    background: none;
+}
+
+.bottom__site__right{
+    background: none;
+}
+
+.bottom__site__b{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 0px 10px 0px;
+}
