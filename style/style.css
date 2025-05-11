@@ -148,3 +148,58 @@ body{
     color: rgba(255, 255, 255, 1);
     padding: 0px 10px 0px;
 }
+
+.kvartira__section{
+    margin-top: 100px;
+}
+
+.rome__numbers{
+    display: flex;
+    position: relative;
+}
+
+.one{
+    position: absolute;
+    top: 0px;
+    left: 900px;
+    z-index: 1;
+}
+
+.two{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    z-index: 1;
+}
+
+.kvartir__function{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    z-index: 2;
+    background: none;
+    padding: 0px 100px 0px;
+}
+
+.function__columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: none;
+}
+
+.colums__icon{
+    background: none;
+}
+
+.kvartir__bbox{
+    max-width: 190px;
+    font-weight: 300;
+    font-size: 16px;
+    background: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 0px 20px 0px;
+}
