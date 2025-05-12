@@ -362,3 +362,120 @@ body{
     background: rgba(212, 193, 127, 1);
     color: #fff;
 }
+
+.video__section__numbers{
+    position: relative;
+}
+
+.three{
+    position: absolute;
+    top: 200px;
+    left: 850px;
+    z-index: 1;
+}
+
+.four{
+    position: absolute;
+    top: 700px;
+    left: 90px;
+    z-index: 1;
+}
+
+.video__section__img{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background: none;
+}
+
+.video__section__mapbox{
+    margin-top: 180px;
+}
+
+.video__section__bbox{
+    font-weight: 600;
+    font-size: 36px;
+    color: rgba(212, 193, 127, 1);
+}
+
+.video__section__buttonbox{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background: none;
+}
+
+.video__section__button{
+    border: 0.2px solid rgba(98, 98, 98, 1);
+    background-color: rgba(98, 98, 98, 1);
+    padding: 300px 400px 0px;
+}
+
+.vopros__section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.vopros__section__bbox{
+    font-weight: 600;
+    font-size: 36px;
+    color: rgba(212, 193, 127, 1);
+}
+
+.vopros__section__flex{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.vopros__section__b__box{
+    display: flex;
+    text-align: center;
+    max-width: 250px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(231, 231, 231, 1);
+}
+
+.vopros__section__buttonbox__button{
+    border: 0.2px solid #9b9b9b;
+    padding: 15px 60px 0px;
+    background: #9b9b9b;
+    opacity: 20%;
+}
+
+.vopros__section__abox{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: none;
+}
+
+.vopros__section__buttonbox__buttonn{
+    border: 0.2px solid #9b9b9b;
+    padding: 15px 60px 0px;
+    background: rgba(212, 193, 127, 1);
+}
+
+.vopros__section__aabox{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: none;
+}
