@@ -263,3 +263,102 @@ body{
     top: 200px;
     left: 650px;
 }
+
+.posmotret__all__columns{
+    width: 1240px;
+    height: 560px;
+    background-image: url('../img/prosm\ backg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posmotret__info__b{
+    font-weight: 700;
+    font-size: 34px;
+    color: rgba(212, 193, 127, 1);
+    background: none;
+}
+
+.posmotret__text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: none;
+}
+
+.posmotret__pbox{
+    max-width: 535px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    background: none;
+}
+
+.posmotret__buttonbox__columns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    background: none;
+    padding: 20px 30px 0px;
+}
+
+.posmotret__buttonbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: none;
+}
+
+.posmotret__buttonbox__button{
+    border: 0.1px solid #9b9b9b;
+    padding: 25px 100px 0px;
+    background: #9b9b9b;
+    color: #fff;
+    opacity: 20%;
+}
+
+.posmotret__buttonbox__a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    background: none;
+}
+
+
+
+.infobox__bb{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 240px;
+    font-weight: 400;
+    font-size: 14px;
+    background: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.posmotret__infobox{
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    background: none;
+}
+
+.posmotret__buttonbox__buttonn{
+    border: 0.1px solid #9b9b9b;
+    padding: 25px 80px 0px;
+    background: rgba(212, 193, 127, 1);
+    color: #fff;
+}
